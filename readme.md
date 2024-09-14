@@ -15,17 +15,18 @@ This repository contains a simple FastAPI application that implements basic CRUD
 - `virtualenv` (optional, for creating virtual environments)
 - Git
 
-### Installation
 
-1. **Clone the Repository**
+**## **Steps of Execution and linux Commands used**
 
-   ```bash
-   git clone https://github.com/yourusername/linux-APIs.git
-   cd linux-APIs
-## **Create and Activate a Virtual Environment**
 ```bash
+**Create and activate Virtual environment(Optional)**
 python3 -m venv env
 source env/bin/activate
+
+**Clone the Repository**
+```bash
+   git clone https://github.com/yourusername/linux-APIs.git
+   cd linux-APIs
 
 **Install Dependencies**
 ```bash
@@ -33,9 +34,9 @@ pip install -r requirements.txt
 
 **Run the FastAPI Application**
 ```bash
-uvicorn main:app --reload
+uvicorn main:app --reload**
 
-##Linux Commands Used
+## **Linux Commands Used**
 **Git Commands**
 **Initialize a Git Repository**
 
@@ -84,8 +85,5 @@ rm path/to/file
 
 **Generate requirements.txt**
 bash
-pip freeze > requirements.txt**
+pip freeze > requirements.txt
 
-## **Contribution**
-Feel free to fork the repository and submit pull requests. Contributions are welcome!
-**Author**:Ansar ul Haq
