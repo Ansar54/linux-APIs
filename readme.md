@@ -22,7 +22,7 @@ This repository contains a simple FastAPI application that implements basic CRUD
    ```bash
    git clone https://github.com/yourusername/linux-APIs.git
    cd linux-APIs
-**Create and Activate a Virtual Environment**
+## **Create and Activate a Virtual Environment**
 ```bash
 python3 -m venv env
 source env/bin/activate
